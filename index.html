@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+        	<h1>Login</h1>
+        	<form class="form" method="get">
+        		<label>usuário</label>
+        		<input type="text" name="usuario" id="usuario"  placeholder="usuário" required>
+        			<p id="user"></p>
+        		<label>senha</label>
+        		<input type="password" name="senha" id="senha" placeholder="senha" required>
+        			<p id="password"></p>
+        		<button id="logar" onclick="isValidate()">Logar</button>
+        		<div class="flex">
+	        		<a href="" id="esquece_senha">Esqueceu sua senha ?</a>
+	        		<a href="" id="cadastro">Cadastre-se</a>	
+        		</div>
+        	</form>
+        </div>
+    </header>
+    <script src="script/script.js"></script>
+</body>
+</html>
